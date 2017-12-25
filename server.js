@@ -8,7 +8,7 @@ var articleone={
     title:"Article 1",
     heading:"articleone",
     content:`<p>This is my content
-          I am cool<</p>`
+          I am cool</p>`
 }
 function createTemplate(data){
     var title=data.title;
