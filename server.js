@@ -14,7 +14,7 @@ function createTemplate(data){
     var title=data.title;
     var heading=data.heading;
     var content=data.content;
-}
+
 var htmltemplate= `
 <!doctype html>
 <html>
@@ -31,7 +31,7 @@ ${title}
 `;
 return htmltemplate;
 }    
-}
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
