@@ -22,13 +22,8 @@ articletwo:{
     heading:"articleone",
     content:`<p>This is my content for article2
           I am cool</p>`
-},
-artiletwo:{
-    title:"Article 1",
-    heading:"articleone",
-    content:`<p>This is my content for article2
-          I am cool</p>`
 }
+
 };
 function createTemplate(data){
     var title=data.title;
