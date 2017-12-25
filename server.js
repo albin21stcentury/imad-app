@@ -19,7 +19,7 @@ var articles={
 },
 articletwo:{
     title:"Article 1",
-    heading:"articleone",
+    heading:"articletwo",
     content:`<p>This is my content for article2
           I am cool</p>`
 }
