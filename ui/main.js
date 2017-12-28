@@ -38,7 +38,9 @@ submit.onclick=function() {
         }
         }
     };
-   
-};
-request.open('GET','http://albinpius12.imad.hasura-app.io/submit-name?name='+name,true);
+    var nameinp=document.getElementById("name");
+var name=nameinp.value;
+   request.open('GET','http://albinpius12.imad.hasura-app.io/submit-name?name='+name,true);
 request.send(null);
+};
+
