@@ -18,3 +18,14 @@ button.onclick = function () {
 request.open('GET','http://albinpius12.imad.hasura-app.io/counter',true);
 request.send(null);
 };
+var nameinp=document.getElementById("name");
+var submit=document.getElementByIs("submit");
+submit.onclick()=function() {
+    var names={'name1','name2'};
+    var list='';
+    for(var i=0;i<names.length;i++) {
+        list+='<li>'+names[i]+'</li>';
+    }
+    var ul=document.getElementById('namelist');
+    ul.innerHTML=list;
+};
