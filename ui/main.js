@@ -19,7 +19,7 @@ request.open('GET','http://albinpius12.imad.hasura-app.io/counter',true);
 request.send(null);
 };
 var nameinp=document.getElementById("name");
-var submit=document.getElementByIs("submit");
+var submit=document.getElementById("submit");
 submit.onclick()=function() {
     var names={'name1','name2'};
     var list='';
