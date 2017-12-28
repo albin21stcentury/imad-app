@@ -21,7 +21,7 @@ request.send(null);
 var nameinp=document.getElementById("name");
 var submit=document.getElementById("submit");
 submit.onclick=function() {
-    var names={'name1','name2'};
+    var names = ['name1','name2'];
     var list='';
     for(var i=0;i<names.length;i++) {
         list+='<li>'+names[i]+'</li>';
